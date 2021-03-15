@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>DROP</title>
+  </head>
+  <body>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="img/logo.png" alt="DROP">
+          </div>
+
+          <nav class="nav">
+            <a href="#" class="nav__link">Home</a>
+            <a href="#" class="nav__link servicesScroll">Services</a>
+            <a href="#" class="nav__link productScroll">Product</a>
+            <a href="#" class="nav__link">Contact</a>
+          </nav>
+
+          <button type="button" name="button" class="header__btn">Sign in</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section class="home">
+
+      <!-- Intro -->
+      <div class="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <h1 class="intro__title">Education for all</h1>
+            <p class="intro__subtitle">
+              A bank is a financial institution that accepts deposits from the
+              public and creates credit. For all of your financial needs
+            </p>
+            <button type="button" name="button" class="intro__btn">Read More</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Info -->
+      <div class="info">
+        <div class="container">
+          <div class="info__inner">
+            <div class="form">
+              <h2 class="form__title">Apply for admission</h2>
+              <p class="form__subtitle">Make it more simple!</p>
+              <div class="form__contact">
+                <input type="text" name="email" placeholder="Enter your email ...." class="form__input"><button type="button" name="button" class="form__btn"><img src="img/send-icon.png" alt=""></button>
+              </div>
+            </div>
+            <div class="slider">
+              <div class="slider__item">
+                <p class="info__text">
+                  "Before Coursecity, I was working two minimum wage jobs. Now,
+                  & new life!"I learned most of my programming skills and
+                  hrough self-study and the material available.
+                </p>
+                <p class="info__subtitle">
+                  Stephanie Magion
+                </p>
+              </div>
+              <div class="slider__item">
+                <p class="info__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Porro repellat debitis maxime libero pariatur minima, quia aut
+                  accusantium, rerum cum quod doloremque adipisci animi nam
+                </p>
+                <p class="info__subtitle">
+                  Sam Smith
+                </p>
+              </div>
+              <div class="slider__item">
+                <p class="info__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Necessitatibus error similique fugit vitae eum nostrum? Similique
+                  dolores, placeat cupiditate. Atque alias perspiciatis
+                </p>
+                <p class="info__subtitle">
+                  Peter Brown
+                </p>
+              </div>
+              <div class="slider__item">
+                <p class="info__text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+                  culpa ipsam non. Possimus, soluta neque et minus fuga modi maiores
+                  qui dolorum aut, animi, totam expedita
+                </p>
+                <p class="info__subtitle">
+                  Jack Willson
+                </p>
+              </div>
+              <div class="slider__item">
+                <p class="info__text">
+                  "Before Coursecity, I was working two minimum wage jobs. Now,
+                  & new life!"I learned most of my programming skills and
+                  hrough self-study and the material available.
+                </p>
+                <p class="info__subtitle">
+                  Stephanie Magion
+                </p>
+              </div>
+            </div>
+            <div class="sliderDots">
+              <span class="sliderDots__item" onclick="currentSlide(1)"></span>
+              <span class="sliderDots__item" onclick="currentSlide(2)"></span>
+              <span class="sliderDots__item" onclick="currentSlide(3)"></span>
+              <span class="sliderDots__item" onclick="currentSlide(4)"></span>
+              <span class="sliderDots__item" onclick="currentSlide(5)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest -->
+    <section class="latest">
+      <div class="container">
+        <div class="latest__inner">
+          <div class="latest__img">
+            <img src="img/latest/latest-img-1.png">
+          </div>
+          <div class="latest__container">
+            <h2 class="latest__title">
+              Welcome to Eduin university, Constant self-improvement as an instructor.
+            </h2>
+            <p class="latest__text">
+              Education City is initiative of our Qatar Foundation for Education,
+              Science and Community Development. Education City initiative of our
+              Qatar Foundation for Education, Science and Community Development.
+              <br><br>
+              Education City is initiative of our Qatar Foundation for Education,
+              Science and Community Development. Education City initiative of our
+              Qatar Foundation for Education.
+            </p>
+            <button type="button" name="button" class="latest__btn">Get started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latestSecond">
+      <div class="container">
+        <div class="latestSecond__inner">
+          <div class="latestSecond__img">
+            <img src="img/latest/latest-img-2.png">
+          </div>
+          <div class="latestSecond__container">
+            <h2 class="latestSecond__title">
+              Welcome to Eduin university, Constant self-improvement as an instructor.
+            </h2>
+            <p class="latestSecond__text">
+              Education City is initiative of our Qatar Foundation for Education,
+              Science and Community Development. Education City initiative of our
+              Qatar Foundation for Education, Science and Community Development.
+              <br><br>
+              Education City is initiative of our Qatar Foundation for Education,
+              Science and Community Development. Education City initiative of our
+              Qatar Foundation for Education.
+            </p>
+            <button type="button" name="button" class="latestSecond__btn">Get started</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Middle -->
+    <section class="middle">
+      <div class="container">
+        <div class="middle__inner">
+          <div class="middle__item">
+            <div class="middle__img blue">
+              <img src="img/middle/icon-1.png">
+            </div>
+            <h3 class="middle__title">Global Student</h3>
+            <p class="middle__text">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+          <div class="middle__item">
+            <div class="middle__img purple">
+              <img src="img/middle/icon-2.png">
+            </div>
+            <h3 class="middle__title">Success Rate</h3>
+            <p class="middle__text">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+          <div class="middle__item">
+            <div class="middle__img yellow">
+              <img src="img/middle/icon-3.png">
+            </div>
+            <h3 class="middle__title">Education Services</h3>
+            <p class="middle__text">
+              Education City is initiative of our Qatar Foundation for
+              Education, Science Community Development.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <span class="footer__fa">©</span> 2019 Roy Design. All Rights Reserved
+          </div>
+
+          <nav class="footer__nav">
+            <a href="#" class="footer__link">About Company</a>
+            <a href="#" class="footer__link">Privacy Policy</a>
+            <a href="#" class="footer__link">Help Center</a>
+            <a href="#" class="footer__link">Terms</a>
+            <a href="#" class="footer__link">Site Map</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Startup</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+  <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            Startup
+          </div>
+          <nav class="nav">
+            <a href="#" class="nav__link">Home</a>
+            <a href="#" class="nav__link servicesScroll">Services</a>
+            <a href="#" class="nav__link aboutScroll">About</a>
+            <a href="#" class="nav__link worksScroll">Works</a>
+            <a href="#" class="nav__link blogScroll">Blog</a>
+            <a href="#" class="nav__link clientsScroll">Clients</a>
+            <a href="#" class="nav__link contactScroll">Contact</a>
+          </nav>
+          <button type="button" name="button" class="menu" id="menu" onclick="openMenu()">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="clear" id="menuWindow">
+      <button type="button" name="button" class="menuWindow__btn" id="menu" onclick="closeMenu()">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+      </button>
+      <a href="#" class="menuWindow__link">Home</a>
+      <a href="#" class="menuWindow__link">Services</a>
+      <a href="#" class="menuWindow__link">About</a>
+      <a href="#" class="menuWindow__link">Works</a>
+      <a href="#" class="menuWindow__link">Blog</a>
+      <a href="#" class="menuWindow__link">Clients</a>
+      <a href="#" class="menuWindow__link">Contact</a>
+    </div>
+
+  <!-- Intro -->
+    <div class="intro">
+      <div class="container">
+        <div class="intro__inner">
+          <h1 class="intro__title">Welcome to STARTUP</h1>
+          <p class="intro__text">Your Favourite Creative Agency Template</p>
+          <a href="#" class="btn contactScroll">Get started</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- Services -->
+    <section class="services">
+      <div class="container">
+        <div class="services__inner">
+          <h2 class="title">Services</h2>
+          <p class="subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+          <div class="services__content">
+            <div class="services__item">
+              <div><img src="img/services/fa-font.jpg" class="services__icon"></div>
+              <p class="main">Clean Typography</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Minima maxime quam architecto quo inventore
+                harum ex magni, dicta impedit. Lorem ipsum.</p>
+            </div>
+            <div class="services__item">
+              <div><img src="img/services/fa-code.jpg" class="services__icon"></div>
+              <p class="main">Rock Solid Code</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Minima maxime quam architecto quo inventore
+                harum ex magni, dicta impedit. Lorem ipsum.</p>
+            </div>
+            <div class="services__item">
+              <div><img src="img/services/fa-support.jpg" class="services__icon"></div>
+              <p class="main">Expert Support</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Minima maxime quam architecto quo inventore
+                harum ex magni, dicta impedit. Lorem ipsum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- About -->
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <h2 class="title">About us</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+          <div class="about__info">
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat,
+              sed diam voluptua. At vero eos et accusam et justo dolores et ea
+              rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam
+              erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.
+            </p>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam
+              nonumy eirtempor invidunt ut labore et dolore aliquyam erat, sed
+              diam voluptua. At vero eos eaccusam et justo dolores et ea rebum.
+              Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+              ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat.
+              Loreipsum dolor sit amet. Lorem ipsum dolor et.
+            </p>
+          </div>
+          <div class="about__workers">
+            <div class="about__item">
+              <img src="img/workers/Layer 12.png" class="about__img">
+              <h3 class="main">Md. Khalil Uddin</h3>
+              <p class="text">Head of Ideas</p>
+            </div>
+            <div class="about__item">
+              <img src="img/workers/Layer 13.png" class="about__img">
+              <h3 class="main">Rubel Miah</h3>
+              <p class="text">Lead WordPress Developer</p>
+            </div>
+            <div class="about__item">
+              <img src="img/workers/Layer 15.png" class="about__img">
+              <h3 class="main">Shamim Mia</h3>
+              <p class="text">Sr. Web Developer</p>
+            </div>
+            <div class="about__item">
+              <img src="img/workers/Layer 16.jpg" class="about__img">
+              <h3 class="main">John Doe</h3>
+              <p class="text">Front-end Developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+      <section class="works">
+        <div class="container">
+          <h2 class="title">Latest works</h2>
+          <nav class="works__nav">
+            <a href="#" class="works__link works__link_active">All</a>
+            <a href="#" class="works__link">Branding</a>
+            <a href="#" class="works__link">Design</a>
+            <a href="#" class="works__link">Development</a>
+            <a href="#" class="works__link">Strategy</a>
+          </nav>
+          <div class="works__content">
+            <div class="works__item">
+              <img src="img/works/Layer 18.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 19-2.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 20.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 21.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 22.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 23.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 25.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 26.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+            <div class="works__item">
+              <img src="img/works/Layer 24.jpg">
+              <div class="works__hover">
+                <h3 class="works__title">Hair Dresser</h3>
+                <p class="works__subtitle">Branding</p>
+                <a href="#" class="works__btn">
+                  view <img src="img/works/fa-angle-left.png">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Banner -->
+      <div class="banner">
+        <div class="banner__inner">
+          <div class="banner__text">
+            Do you like OUR WORK so far?
+            Let's talk about YOUR PROJECT!
+          </div>
+          <a href="#" class="btn contactScroll">Get in touch</a>
+        </div>
+      </div>
+
+    <!-- Blog -->
+      <section class="blog">
+        <div class="container">
+          <h2 class="title">Recent blog posts</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+          <div class="blog__container">
+            <div class="blog__photo">
+              <img src="img/blog/blog1.jpg">
+            </div>
+            <div class="blog__content">
+              <div class="blog__main">
+                <div class="blog__calendar">
+                  <div class="blog__data">
+                    <span>18</span> OCT
+                  </div>
+                </div>
+                <div class="blog__heading">
+                  <a href="#" class="blog__name">
+                    Startup ideas needs to be funded
+                  </a>
+                  <p class="blog__footing">
+                    By <a href="#" class="blog__author">Khalil Uddin</a>
+                    in <a href="#" class="blog__spec">Development</a>
+                  </p>
+                </div>
+              </div>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod teduntlabore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores
+                et erebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                invidulabore et dolore aliquyam erat, sed diam
+              </p>
+              <a href="#" class="blog__btn">Read more</a>
+            </div>
+          </div>
+          <div class="blog__container">
+            <div class="blog__photo">
+              <img src="img/blog/blog2.jpg">
+            </div>
+            <div class="blog__content">
+              <div class="blog__main">
+                <div class="blog__calendar">
+                  <div class="blog__data">
+                    <span>18</span> OCT
+                  </div>
+                </div>
+                <div class="blog__heading">
+                  <a href="#" class="blog__name">
+                    User Interface Designing Elements
+                  </a>
+                  <p class="blog__footing">
+                    By <a href="#" class="blog__author">Khalil Uddin</a>
+                    in <a href="#" class="blog__spec">Development</a>
+                  </p>
+                </div>
+              </div>
+              <p class="blog__text">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod teduntlabore et dolore magna aliquyam erat,
+                sed diam voluptua. At vero eos et accusam et justo duo dolores
+                et erebum. Stet clita kasd gubergren, no sea takimata sanctus
+                est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor idunt
+                ut labore et dolore aliquyam
+              </p>
+              <a href="#" class="blog__btn">Read more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Clients -->
+      <div class="clients">
+        <div class="clients__inner">
+          <div class="clients__logos">
+            <div class="clients__item">
+              <img src="img/clients/Layer 30.png">
+            </div>
+            <div class="clients__item">
+              <img src="img/clients/Layer 31.png">
+            </div>
+            <div class="clients__item">
+              <img src="img/clients/Layer 33.png">
+            </div>
+            <div class="clients__item">
+              <img src="img/clients/Layer 32.png">
+            </div>
+            <div class="clients__item">
+              <img src="img/clients/Layer 34.png">
+            </div>
+          </div>
+          <div class="clients__container">
+            <div class="container">
+              <p class="clients__text">”Hvaing placeat facere possimus, omnis
+                voluptas assumenda est, omnis dolor repellendus. Temporibus autem
+                quibusdam et aut officiis debitis aut rerum”</p>
+              <p class="clients__person">John Doe, Google Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Contact -->
+      <div class="contact">
+        <div class="container">
+          <h2 class="title">Get in touch</h2>
+          <p class="subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+          <div class="contact__content">
+            <div class="contact__contacts">
+              <div class="contact__item">
+                <div class="contact__top">
+                  <img src="img/contact/fa-map-marker.png" class="contact__img"><h3 class="contact__title">Address</h3>
+                </div>
+                <div class="contact__down">
+                  <p class="contact__text">
+                    312, 7th Ave, New York<br>
+                    NY 101200, United States of America
+                  </p>
+                </div>
+              </div>
+              <div class="contact__item">
+                <div class="contact__top">
+                  <img src="img/contact/fa-mobile-phone.png" class="contact__img"><h3 class="contact__title">Hotline (24x7)</h3>
+                </div>
+                <div class="contact__down">
+                  <p class="contact__text">
+                    +65 0052 300,<br>
+                    +65 88251 210<br>
+                    +88 01723 511 340
+                  </p>
+                </div>
+              </div>
+              <div class="contact__item">
+                <div class="contact__top">
+                  <img src="img/contact/fa-envelope-o.png" class="contact__img contact__img_mail"><h3 class="contact__title">E-mail</h3>
+                </div>
+                <div class="contact__down">
+                  <p class="contact__text">
+                    shapedtheme@gmail.com<br>
+                    khalilkode@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+            <form method="post" name="contact-form" class="form" id="form" onsubmit="return checkForm(this)">
+              <input type="text" name="name" placeholder="Your name" class="form__input" id="name">
+              <input type="text" name="email" placeholder="Your e-mail" class="form__input form__input_m" id="email">
+              <input type="text" name="subject" placeholder="Your subject" class="form__input" id="subject">
+              <input type="text" name="comname" placeholder="Company name" class="form__input form__input_m" id="comname">
+              <textarea name="message" rows="8" cols="80" placeholder="Write your message" class="form__message" id="message"></textarea>
+              <input type="submit" name="submit" value="Send message" class="contact__btn"></input>
+              <div class="contact__info">
+                <span class="contact__star">*</span>We’ll contact you as as possible.
+                We don’t reply on Monday.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__inner">
+          <div class="footer__icons">
+            <a href="#"><img src="img/footer/fa-twitter.png" class="footer__img"></a>
+            <a href="#"><img src="img/footer/fa-twitter.png" class="footer__img"></a>
+            <a href="#"><img src="img/footer/fa-twitter.png" class="footer__img"></a>
+            <a href="#"><img src="img/footer/fa-twitter.png" class="footer__img"></a>
+          </div>
+          <div class="footer__text">
+            © 2015 Startup, Designed by ShapedTheme
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="js/main.js"></script>
+  </body>
+</html>
